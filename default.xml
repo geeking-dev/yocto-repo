@@ -1,12 +1,9 @@
 <manifest>
     <!-- Remotes configurations -->
-    <remote name="Yocto" fetch="git://git.yoctoproject.org"/>
-    <default revision="refs/heads/master" remote="Yocto" sync-j="4"/>
-
-    <remote name="oe" fetch="git://github.com/openembedded"/>
-    <default revision="refs/heads/master" remote="Yocto" sync-j="4"/>
+    <remote name="Yocto" fetch="git://git.yoctoproject.org"/>    
+    <remote name="oe" fetch="git://git.openembedded.org"/>
 
     <!-- Projects configurations -->
     <project name="poky" remote="Yocto" revision="kirkstone" path="workspace/yocto"/>
-    <project name="meta-openembedded" remote="oe" revision="kirkstone" path="workspace/yocto/meta-oe" />
+    <project name="meta-openembedded" remote="oe" revision="kirkstone" path="workspace/yocto/meta-oe"/>
 </manifest>
