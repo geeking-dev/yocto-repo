@@ -7,5 +7,5 @@
     <!-- Projects configurations -->
     <project name="poky" remote="Yocto" revision="kirkstone" path="workspace/yocto"/>
     <project name="meta-openembedded" remote="oe" revision="kirkstone" path="workspace/yocto/meta-oe"/>
-    <project name="docker-yocto" remote="docker" revision="master" path="."/>
+    <project name="docker-yocto" remote="docker" revision="master" path="docker"/>
 </manifest>
