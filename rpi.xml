@@ -1,4 +1,4 @@
 <manifest>
     <include name="default.xml" />
-    <project name="meta-raspberrypi" remote="Yocto" revision="kirkstone" path="docker"/>
+    <project name="meta-raspberrypi" remote="Yocto" revision="kirkstone" path="workspace/yocto/meta-raspberrypi"/>
 </manifest>
