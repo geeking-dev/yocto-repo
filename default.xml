@@ -5,8 +5,8 @@
     <remote name="docker" fetch="https://github.com/geeking-dev"/>
     <remote name="kde" fetch="https://github.com/KDE"/>
     <remote name="invent-kde" fetch="https://invent.kde.org/packaging"/>
-    <!-- <remote name="qt-yocto" fetch="https://code.qt.io/cgit/yocto"/>
-    <remote name="java" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>      -->
+    <remote name="qt-yocto" fetch="https://code.qt.io/yocto"/>
+    <remote name="java" fetch="https://git.yoctoproject.org/git"/>
 
     <!-- Projects configurations -->
     <project name="poky" remote="Yocto" revision="kirkstone" path="workspace/yocto"/>
@@ -14,7 +14,7 @@
     <project name="docker-yocto" remote="docker" revision="master" path="docker"/>
     <project name="yocto-meta-kde" remote="kde" revision="master" path="workspace/yocto/meta-kde"/>
     <project name="yocto-meta-kf5" remote="invent-kde" revision="master" path="workspace/yocto/meta-kf5"/>
-    <!-- <project name="meta-qt5" remote="qt-yocto" revision="v5.11.1" path="workspace/yocto/meta-qt5"/>
-    <project name="meta-java" remote="java" revision="master" path="workspace/yocto/meta-java"/> -->
+    <project name="meta-qt5" remote="qt-yocto" revision="lts-5.15" path="workspace/yocto/meta-qt5"/>
+    <project name="meta-java" remote="java" revision="master" path="workspace/yocto/meta-java"/>
 
 </manifest>
